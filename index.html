@@ -6,31 +6,9 @@
     <title>myfirstwebsite</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet"/>
-    <style> 
-        nav {
-            background-color: rgb(160, 187, 206);
-        }
-        .navo {
-            text-decoration: none;
-            margin-left: 20px;
-        }
-        a {
-            color: blueviolet;
-            font-size: 20px;
-        }
-        .lastclass {
-            font-size: 30px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: brown;
-            text-align: center;
-        }
-        #koko {
-            color: rgb(199, 17, 17);
-        }
-
-    </style>
+    
 </head>
 <body>
     <header>
@@ -44,44 +22,45 @@
     </nav>
     </header>
     <section>
-        <h1 style="color: rgb(0, 162, 255);" id="About Me">About me</h1> 
-        <p>Welcome!</p>
-        <p>I'm Babatola, your friendly neighbourhood web wizard! With a solid background as a web developer and a treasure chest of industry experience.</p>
-        <p>I've spent my career crafting websites that not only look good but work like a charm.</p> 
-        <p>Solving web mysteries and turning them into delightful digital experiences is my jam...</p>
+        <h1 id="About Me">About me</h1> 
+        <p id="welcome">Welcome!<br><br>
+        I'm Babatola, your friendly neighbourhood web wizard! <br><br> With a solid background as a web developer and a treasure chest of industry experience.<br><br>
+        I've spent my career crafting websites that not only look good but work like a charm.<br><br>
+        Solving web mysteries and turning them into delightful digital experiences is my jam...</p>
     </section>
-    <aside>
-        <h1 style="color: rgb(0, 162, 255);" id="Gallery">Gallery</h1>
-        <audio controls>
-            <source src="dramatic-reveal-21469.mp3" type="audio/mpeg"/>
-        </audio>
-        <video controls width="320" height="240" autoplay>
+    <section>
+        <h1 id="Gallery">Gallery</h1>
+        <video class="audiovisual" controls width="320" height="240" autoplay>
             <source src="Free 4K Stock Videos.mp4" type="video/mp4"/>
         </video>
-        <image src="Delivery URL.jpeg" width="320" height="240"/>
-    </aside> 
+        <audio class="audiovisual" controls>
+            <source src="dramatic-reveal-21469.mp3" type="audio/mpeg"/>
+        </audio>
+        <image class="audiovisual" src="Delivery URL.jpeg" width="320" height="240"/>
+    </section> 
     <section>
-        <h1 style="color: rgb(0, 162, 255);" id="My Services">My Services</h1>
+        <h1 id="My Services">My Services</h1>
         <ul>
-            <li class="first-list">Web development</li>
-            <li class="first-list">Web design</li>
-            <li class="first-list">Video editingt</li>
-            <li class="first-list">Photography</li>
-            <li class="first-list">App development</li>
-            <li class="first-list">SEO expert</li>
+            <li>Web development</li>
+            <li>Web design</li>
+            <li>Video editingt</li>
+            <li>Photography</li>
+            <li>App development</li>
+            <li>SEO expert</li>
          </ul>
     </section>
     <section>
-        <h1 style="color: rgb(0, 162, 255);" id="Contact Me">Contact me</h1>
+        <h1 id="Contact Me">Contact me</h1>
+        <div class="center-form">
         <form>
             <label>First name</label>
-            <input type="text" name="first name" placeholder="first name"/>
+            <input class="input" type="text" name="first name" placeholder="first name"/>
             <br/><br/>
             <label>Last name</label>
-            <input type="text" name="last name" placeholder="last name"/>
+            <input class="input" type="text" name="last name" placeholder="last name"/>
             <br/><br/>
             <label>Email</label>
-            <input type="text" name="email" placeholder="email"/>
+            <input class="input" type="text" name="email" placeholder="email"/>
             <br/><br/>
             <label>Select</label>
             <select>
@@ -96,18 +75,18 @@
                 Message me
             </textarea>
             <br><br>
-            <button type="Submit" style="border: 0ch; background-color: blueviolet; border-top-right-radius: 10px;">Submit</button>
-
+            <button type="Submit">Submit</button>
+        </div>
         </form>
     </section>
     <section>
-        <h1 style="color: rgb(0, 162, 255);">Let's Get Talking!</h1>
-        <p id="koko">Home</p>
+        <h1>Let's Get Talking!</h1>
+        <p>Home</p>
         <p>About Me</p>
-        <p id="Gallery">Gallery</p>
+        <p>Gallery</p>
         <p>My Services</p>
         <p>Contact Me</p>
     </section>
-    <footer class="lastclass">Made by me. copy 2023</footer>
+    <footer id="lastclass">Made by me. copyright 2023</footer>
 </body>
 </html>

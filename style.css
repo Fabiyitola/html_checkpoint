@@ -1,10 +1,52 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    max-width: 960px;
+    margin: auto;
 }
-#Gallery {
-     color: chocolate; 
+nav {
+    padding: 50px;
+    background-color: gray;
 }
-.first-list {
-    color: red;
-    /* display: inline; */
+.navo {
+    color: orange;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+h1 {
+    color: orange;
+}
+p, li, label {
+    color: gray;
+}
+#welcome {
+    color: gray;
+    background-color: orange;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    margin: 40px 50px;
+    border: 3px;
+}
+.center-form {
+    justify-content: center;
+    display: flex;
+    margin: 40px 50px;
+    border: 3px;
+    background-color: orange;
+    : ;
+}
+button {
+    border: 0ch; 
+    background-color: gray; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#lastclass {
+    color: orange;
+    text-align: center;
+    background-color: gray;
 }
