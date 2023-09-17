@@ -4,3 +4,7 @@ body {
 #Gallery {
      color: chocolate; 
 }
+.first-list {
+    color: red;
+    /* display: inline; */
+}
